@@ -1,0 +1,76 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    background-color: gold;
+    padding: 10px 20px;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+ul{
+    float: right;
+    list-style: none;
+}
+
+.body-area{
+    padding: 20px;
+}
+
+.form-container h1{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+label{
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+input{
+    border: 1px solid #555555;
+    font-size: 14px;
+    padding: 5px;
+}
+
+
+.input-wrapper{
+    margin-bottom: 20px;
+}
+
+.survey-button{
+    font-size: 17px;
+    background-color: dodgerblue;
+    border: none;
+    padding: 6px 15px;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+}
+
+.survey-button:hover{
+    font-weight: 900;
+    background-color: gray;
+}
+
+@media(min-width: 600px) {
+   label{
+       display: block;
+       font-size: 20px;
+   }
+   input{
+       font-size: 18px;
+   }
+
+}
+/* registration page */
+/* first name */
+/* secondname */
+/* email  */
+/* phone */
